@@ -20,13 +20,12 @@ The following **optional** features are implemented:
 
 - [ ] Cards contains images in addition to or in place of text
 - [ ] Cards have different visual styles such as color based on their category
-  - [ ] *visual style implemented*
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='?' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://user-images.githubusercontent.com/52909605/223006275-972ac2e7-e05d-4740-8e43-36c065ef1946.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Gif created used LICECap.
 
