@@ -75,9 +75,7 @@ function App() {
       <h2 className="subtitle"> Learn about the major finance indicators below! </h2>
       <h3 className="subtitle"> Number of flashcards: {cards.length} </h3>
       <div className="card-container">
-        <div
-          className={showAnswer ? "card card-answer" : "card"}
-          onClick={handleCardClick}>
+        <div className="card" onClick={handleCardClick}>
           <div className="card-text">
             {showAnswer ? currentCard.answer : currentCard.question}
           </div>
