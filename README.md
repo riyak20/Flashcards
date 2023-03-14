@@ -1,37 +1,38 @@
-# Web Development Project 2 - *Flashcard App*
+# Web Development Project 3 - *Markets Quiz*
 
 Submitted by: **Riya Kabra**
 
-This web app: **Quizzes you using flashcards regarding the markets**
+This web app: **Markets quiz on important financial indicators**
 
-Time spent: **2.5** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [X] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [X] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [X] **A list of card pairs is created**
-- [X] **Clicking on the card shows the corresponding component of the information pair**
-- [X] **Clicking the next button displays a random new card**
+- [X] **The user can enter their guess in a box before seeing the flipside of the card**
+- [X] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [X] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [X] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
 The following **optional** features are implemented:
 
-- [ ] Cards contains images in addition to or in place of text
-- [ ] Cards have different visual styles such as color based on their category
+- [ ] A shuffle button is used to randomize the order of the cards
+- [ ] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [ ] A counter displays the user's current and longest streak of correct responses
+- [ ] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented user stories:
 
-<img src='https://user-images.githubusercontent.com/52909605/223006275-972ac2e7-e05d-4740-8e43-36c065ef1946.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://user-images.githubusercontent.com/52909605/224891026-c7cb4500-7e80-4d6b-87bd-8d90097d86bd.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-Gif created used LICECap.
+Gif created with LICECap.
 
 ## Notes
 
-Understanding how to use the toggling function in between flashcards to switch between question and answer was challenging.
+It was challenging to create popups with users answers based on accuracy.
 
 ## License
 
