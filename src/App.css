@@ -50,15 +50,77 @@ body {
   text-align: center;
 }
 
-.next-button {
+.next-button, .previous-button {
   font-size: 1rem;
   background-color: white;
   color: lightgreen;
   cursor: pointer;
-  display: block;
-  margin: 0 auto;
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
 }
 
 .next-button:hover {
-  background-color: white;
+  background-color: lightgreen;
+  color: white;
 }
+
+.previous-button:hover {
+  background-color: lightgreen;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.answer-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+input[type="text"] {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.submit-button {
+  font-size: 1rem;
+  background-color: white;
+  color: lightgreen;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.submit-button:hover {
+  background-color: lightgreen;
+  color: white;
+}
+
+.submit-box {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.correct {
+  background-color: lightgreen;
+}
+
+.incorrect {
+  background-color: red;
+}
+
